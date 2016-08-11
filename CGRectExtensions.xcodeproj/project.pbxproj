@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24091C0F1BA1EFCF00980A3E /* DescriptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24091C0E1BA1EFCF00980A3E /* DescriptionTests.swift */; settings = {ASSET_TAGS = (); }; };
-		24091C101BA1F02500980A3E /* DescriptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24091C0E1BA1EFCF00980A3E /* DescriptionTests.swift */; settings = {ASSET_TAGS = (); }; };
+		24091C0F1BA1EFCF00980A3E /* DescriptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24091C0E1BA1EFCF00980A3E /* DescriptionTests.swift */; };
+		24091C101BA1F02500980A3E /* DescriptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24091C0E1BA1EFCF00980A3E /* DescriptionTests.swift */; };
 		242C641319D5C78A00D51D9F /* InsetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242C641219D5C78A00D51D9F /* InsetTests.swift */; };
 		242C641519D5CCAD00D51D9F /* ExtendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242C641419D5CCAD00D51D9F /* ExtendTests.swift */; };
 		242C642019D5CF5100D51D9F /* CGRectExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 242C641F19D5CF5100D51D9F /* CGRectExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -291,9 +291,11 @@
 				TargetAttributes = {
 					242C641A19D5CF5000D51D9F = {
 						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0800;
 					};
 					242C642419D5CF5100D51D9F = {
 						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0800;
 					};
 					247BBDF719D4A89F00A782E2 = {
 						CreatedOnToolsVersion = 6.1;
@@ -439,6 +441,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -459,6 +462,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -482,6 +486,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "de.nschum.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -499,6 +504,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "de.nschum.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
